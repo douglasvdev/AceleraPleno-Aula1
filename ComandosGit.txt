@@ -1,0 +1,17 @@
+
+Criar usuario
+  git checkout -b <USUARIO>
+
+Pull
+  git fetch
+  git merge FETCH_HEAD
+
+Retorno Everything up-to-date
+    git fetch origin
+    git reset --hard origin
+    git add <ARQUIVO>
+    git commit -m "texto"
+    git push
+
+
+git merge develop ????
